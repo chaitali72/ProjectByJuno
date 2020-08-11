@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6168baa3db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Treasures</title>
+</head>
+
+<body>
+    <header id="home">
+        <div class="wrapper">
+            <nav>
+                <h3 class="top-logo" aria-label="treasury">treasurie</h3>
+                <ul class="main-nav">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#shop">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- mobile menu begins -->
+                <div class="hamburger">
+                    <input type="checkbox" id="hamburger-toggle" name="hamburger-toggle" class="hamburger-toggle">
+                    <label for="hamburger-toggle" id="hamburger-toggle" aria-label="checkbox to open and close mobile navigation menu. To toggle checkbox and open or close the menu, press control option space.">
+                        <div class="hamburger-lines">
+                            <div class="hamburger-line line1"></div>
+                            <div class="hamburger-line line2"></div>
+                            <div class="hamburger-line line2b middle"></div>
+                            <div class="hamburger-line line3"></div>
+                        </div>
+                    </label>
+                    <ul class="mobile-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- mobile menu ends -->
+
+            </nav>
+            <h1>worldly treasures worth the peak</h1>
+            <a class="header-button" href="#shop">Shop now</a>
+        </div>
+    </header>
+    <main>
+        <section class="blog" id="blog">
+            <div class="wrapper">
+                <h4>Latest blog posts</h4>
+                <article class="blog-article">
+                    <h2>our journey to greece and morocco</h2>
+                    <div class="blog-flex">
+                        <button class="left1" aria-label="previous"><i class="fa fa-chevron-left fa-4x"></i></button>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus sunt nisi ut architecto recusandae, sit odio non velit veniam minus vitae cum animi dolorum atque porro quisquam doloribus ad mollitia!</p>
+                        <button class="right1" aria-label="next"><i class="fa fa-chevron-right fa-4x"></i></button>
+                    </div>
+                    <button class="left2" aria-label="previous"><i class="fa fa-chevron-left"></i></button>
+                    <button class="right2" aria-label="next"><i class="fa fa-chevron-right"></i></button>
+                    <button class="blog-button">Learn more</button>
+                </article>
+            </div>
+        </section>
+        <section class="adventures">
+            <div class="wrapper">
+                <h2>latest adventures</h2>
+                <div class="adventures-flex">
+                    <div class="countries">
+                        <img src="./assets/turkey.jpg" alt="hot air balloons over Turkey">
+                        <h5>turkey</h5>
+                    </div>
+                    <div class="countries">
+                        <img src="./assets/morocco.jpg" alt="sunny street in morocco">
+                        <h5>morocco</h5>
+                    </div>
+                    <div class="countries">
+                        <img src="./assets/senegal.jpg" alt="street in senegal">
+                        <h5>senegal</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="vase">
+            <div class="wrapper">
+                <div class="vase-flex">
+                    <img src="./assets/blue-vase.jpg" alt="white vase with a blue dragon on it" class="vase-photo">
+                    <article class="vase-article">
+                        <h2 id="shop">beautiful blue dragon vase</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dolorum provident amet reiciendis omnis vel similique cum pariatur molestiae quam voluptatum, tempora est corporis delectus officiis. Molestias ab numquam expedita modi dignissimos officia ipsa culpa dolor cum esse asperiores sunt, ad eveniet distinctio error, vel iste mollitia doloremque fuga quasi!</p>
+                        <button class="vase-button">Shop now</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2 class="contact-us">contact us</h2>
+                <form action="#" method="#" class="contact-form" name="contact-form">
+                    <div class="input-flex">
+                        <label for="name" id="name" class="sr-only"></label>
+                        <input type="text" placeholder="Name" class="name" id="name">
+                        <div class="spacing"></div>
+                        <label for="email" id="email" class="sr-only"></label>
+                        <input type="email" placeholder="Email" class="email" id="email">
+                    </div>
+                    <label for="message" id="message" class="sr-only"></label>
+                    <textarea name="message" id="message" class="message" placeholder="Message"></textarea>
+                    <div class="input-flex2">
+                        <button class="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer-flex">
+                <h3 aria-label="treasury">treasurie</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
